@@ -25,3 +25,17 @@ public class Triangle {
 
     }
 }
+/*
+public class PyramidT {
+    public static void main(String[] args) {
+        // Print each line of the pyramid
+        System.out.println("      T      ");
+        System.out.println("     T T     ");
+        System.out.println("    T T T    ");
+        System.out.println("   T T T T   ");
+        System.out.println("  T T T T T  ");
+        System.out.println(" T T T T T T ");
+        System.out.println("T T T T T T T");
+    }
+} */
+
