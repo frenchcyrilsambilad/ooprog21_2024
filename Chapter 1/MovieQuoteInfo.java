@@ -1,7 +1,7 @@
 // Chapter 1 ( MovieQuoteInfo.java )
 // French Cyril Sambilad BSIT-2E
 
-class MovieQuoteInfo
+public class MovieQuoteInfo
 {
    public static void main(String[] args)
    {
