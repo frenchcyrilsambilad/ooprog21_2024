@@ -1,3 +1,6 @@
+// Chapter 1 ( SwingAlert.java )
+// French Cyril Sambilad BSIT-2E
+
 import javax.swing.JOptionPane;
 
 public class SwingAlert{
