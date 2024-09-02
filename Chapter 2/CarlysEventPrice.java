@@ -22,7 +22,7 @@ public class CarlysEventPrice {
         System.out.println("Total price: $" + totalPrice);
         
         if(numberOfGuests >= 50){
-          System.out.println("Is it a large event? True");
+          System.out.println("Is this a large event? True");
       }else{
           System.out.println("Is this a large event? False");
         }
