@@ -19,13 +19,19 @@ public class SammysRentalPrice {
 
         double totalPrice;
         if (totalMinutes < 60) {
-            totalPrice = (totalMinutes / 60) * 40 ;
+            totalPrice = HOURLY_RATE;
         } else {
             totalPrice = (hours * HOURLY_RATE) + (additionalMinutes * ADDITIONAL_MINUTE_RATE);
         }
-
+        System.out.println("-------------------------------------\n");
+        System.out.println("Number of Minutes: " + totalMinutes);
         System.out.println("Hours: " + hours);
-        System.out.println("Additional minutes: " + additionalMinutes);
+        
+        if(totalMinutes < 60){
+             System.out.println("Additional minutes: 0");
+        } else {
+             System.out.println("Additional minutes: " + additionalMinutes);
+        }
         System.out.println("Total price: $" + totalPrice);
     }
 }
