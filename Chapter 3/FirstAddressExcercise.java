@@ -1,4 +1,4 @@
-public class FirstAddressExercise {
+public class FirstAddressExcercise {
     public static void displayAddress() {
         System.out.println("Xiaomi Corporation");
         System.out.println("No. 68, Qinghe Middle Street");
