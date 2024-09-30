@@ -1,4 +1,4 @@
-class Billing {
+public class Billing {
 
     public double computeBill(double price) {
         double tax = 0.08 * price;
